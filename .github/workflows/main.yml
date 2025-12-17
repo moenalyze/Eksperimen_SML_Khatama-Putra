@@ -32,5 +32,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: processed-data-artifact
-          path: data/water_potability_processed.csv
+          path: water_potability_processed.csv
           retention-days: 5
